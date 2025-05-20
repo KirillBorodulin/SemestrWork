@@ -287,7 +287,7 @@ body {
 }
 
 @media (max-width:600px){
-    .menu{
+    .mainmenu__list{
         display: none;
     }
     .mainmenu__list{
