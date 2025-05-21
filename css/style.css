@@ -29,6 +29,9 @@ body {
 
 }
 
+.main{
+    margin-top: 10px;
+}
 /*---------------menu-----------------*/
 .menu {
     border-bottom: solid gray 1px;
@@ -83,12 +86,14 @@ body {
 .Foto1 {
     display: flex;
     margin: 0 auto;
+    width: 100%;
 }
 /*---------------AboutMe-----------------*/
 .AboutMe {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 .AboutMe1{
     font-size: 30px;
@@ -221,6 +226,7 @@ body {
     align-items: center;
     text-align: center;
     color: #828282;
+    margin-bottom: 30px;
 }
 .menu__link:hover, .menu__link:focus
 {
@@ -231,6 +237,9 @@ body {
 }
 .Portfolio__img1{
     width: 70%;
+}
+.header-menu2{
+    margin-bottom: 30px;
 }
 
 /*------------------@media----------------*/
