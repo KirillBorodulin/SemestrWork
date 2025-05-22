@@ -8,15 +8,17 @@
     <meta name="keywords" content="Denis Novik"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/camera.ico">
+    <link rel="stylesheet" href="js/btn.js">
+    <script defer src="js/btn.js"></script>
 </head>
 <body>
     <header class="header">
         <section class="section header-menu">
             <div class="container">  
-                <div class="menu">
-                    <button class="navbar-toggler" id="navbar-toggler" type="button">
+                <button class="navbar-toggler" id="navbar-toggler" type="button">
                         <img src="img/bars.jpg" width="30px">
-                   </button>
+                    </button>
+                <div class="menu">                   
                     <ul class="mainmenu__list">
                         <li class="mainmenu__item"><a class="menu__link__home" href="#">Home</a></li>
                         <li class="mainmenu__item"><a class="menu__link" href="#">About me</a></li>
@@ -152,5 +154,15 @@
         </section>
 
     </footer>
+    <!-- <script type="text/javascript">
+        const btn = document.getElementById("navbar-toggler");//выбрать элемент кнопку
+        const menus = document.querySelectorAll(".menu");//выбрать все меню
+        btn.addEventListener('click', () => {//когда пользователь кликнет по кнопке
+            for (let el of menus) {//перебрать все меню и к каждому
+                el.classList.toggle("show");//применить убрать стиль show
+            }
+        })
+
+    </script> -->
 </body>
 </html>

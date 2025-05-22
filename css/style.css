@@ -296,7 +296,10 @@ body {
 }
 
 @media (max-width:600px){
-    .mainmenu__list{
+    /* .mainmenu__list{
+        display: none;
+    } */
+    .menu{
         display: none;
     }
     .mainmenu__list{
@@ -328,4 +331,6 @@ body {
         justify-content: center;
     }
 }
-
+.show {
+    display: block;
+}
