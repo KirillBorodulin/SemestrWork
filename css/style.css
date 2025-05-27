@@ -212,6 +212,7 @@ body {
 }
 .image1 {
     margin-right: 62px;
+    margin-left: 62px;
 }
 .image2 {
     margin-right: 62px;
@@ -270,18 +271,12 @@ body {
 
 @media (max-width:768px){
     .Foto1{
-        width: 70%;
+        width: 90%;
     }
     .card__img{
         width: 70%;
     }
     .ff{
-        width: 50%;
-    }
-    .header{
-        min-height: 90px;
-    }
-    .Foto1{
         width: 50%;
     }
     .catalog{
@@ -291,14 +286,9 @@ body {
         justify-content: center;
         width: 99%;
     }
-    
-
 }
 
 @media (max-width:600px){
-    /* .mainmenu__list{
-        display: none;
-    } */
     .menu{
         display: none;
     }
@@ -309,7 +299,7 @@ body {
         justify-content: center;
     }
     .Foto1{
-        width: 50%;
+        width: 85%;
     }
     .footer-menu{
         justify-content: center;
